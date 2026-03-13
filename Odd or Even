@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(0
+{
+ int num;
+ scanf("%d",&num);
+ while(num!=0)
+{
+  if(num%2==0)
+    printf("Even Number");
+  else
+    printf("Odd Number);
+    break;
+}
+return 0;
+}
